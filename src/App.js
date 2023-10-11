@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Search from './components/Search'
 // import Recipe from './components/Recipe'
 // import Shopping from './components/Shopping'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <main>
         <Search></Search>
       </main>
+      <Footer></Footer>
     </>
   );
 }
