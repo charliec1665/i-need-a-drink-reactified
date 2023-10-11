@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# iNeedaDrink
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+iNeedaDrink is an application created for the working adult (over the age of 21) who would like to make a cocktail and may not know where to start. This application can inspire new drink ideas, educate on more familiar drinks, and utilizes an editable shopping list to help make those tipsy dreams a reality.
 
-In the project directory, you can run:
+* This repo is specifically for the updated version of the application where it has been converted from Vanilla Javascript to React by Charlie.
+To see the original repo, please visit this [link](https://github.com/charliec1665/i-need-a-drink).
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) The user can search for the name of drink they would like, or by an ingredient they may already have. There is also a "random" option that will randomly select a drink and recipe from a large API library.
+</br>
+</br>
+![Search by name, ingredient and randomize button showing](src/assets/images/screenshot1.png)
+</br>
+</br>
+</br>
+2) A recipe card will appear with information based on the user's search. Just hit the clear button to start over, or simply search for another drink or ingredient.
+</br>
+</br>
+![Recipe card results](src/assets/images/screenshot3.png)
+</br>
+</br>
+</br>
+3) Below the recipe card, the user can organize a shopping list. The shopping list has both a section to track what the user already may have in their fridge or pantry and what they will need to buy.
+</br>
+</br>
+![Shopping list](src/assets/images/screenshot2.png)
+</br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Link
+With iNeedADrink taking away the unknown, we encourage you to try out our application [here](https://charliec1665.github.io/i-need-a-drink-reactified).
 
-### `npm test`
+## Credits
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Search by Name Function: <a href="https://github.com/abilodeau21">Andy Bilodeau</a>
 
-### `npm run build`
+Search by Ingredient Function: <a href="https://github.com/qclaytor30">Quincy Claytor</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Random Cocktail Generator: <a href="https://github.com/hnihT212">Thinh Nguyen</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Shopping List & UI Design: <a href="https://github.com/charliec1665">Charlie Carter</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Icons: <a href="https://www.vecteezy.com/free-vector/wine">Wine Vectors by Vecteezy</a>
