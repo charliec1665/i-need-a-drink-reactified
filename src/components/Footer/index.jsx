@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <>
         <footer>
-            <NavBar id='footer' className='d-flex'>
-                    {/* <Row className='d-flex flex-row justify-content-around'>  */}
+            <NavBar id='footer' class='justify-around'>
+                    {/* <Row className=''> */}
                         <Col className=''>
                             <img 
                                 src={logo}
@@ -20,8 +20,8 @@ const Footer = () => {
                                 alt='Wine love icon'
                             />
                         </Col>
-                        <Col className=''>
-                            <p>Andy Charlie Thinh Quincy</p>
+                        <Col class=''>
+                            <p class=''>Andy Charlie Thinh Quincy</p>
                         </Col>
                     {/* </Row> */}
             </NavBar>
