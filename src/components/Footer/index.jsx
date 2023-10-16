@@ -6,10 +6,11 @@ const Footer = () => {
   return (
     <>
         <footer>
-            <NavBar id='footer' className='flex justify-center'>
+            <NavBar id='footer' className='justify-between'>
                 <a href='https://github.com/abilodeau21'>Andy</a>
                 <a href='https://github.com/charliec1665'>Charlie</a>
                 <img 
+                    id='logo'
                     src={logo}
                     width={40}
                     height={40}
